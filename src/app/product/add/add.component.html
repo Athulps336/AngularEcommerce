@@ -1,0 +1,56 @@
+<div class="container p-5 text-center">
+
+    <h1 class="mb-5">Add New Product</h1>
+
+    <form (ngSubmit)="addNewproduct()" [formGroup]="addProduct" id="d" class="container p-5 border bg-light">
+        <input formControlName="pid" type="text" class="form-control mt-3 p-2 " placeholder="id" name="pin" id="pid1">
+        <div *ngIf="(this.addProduct.get('pid')?.errors)&&(this.addProduct.get('pid')?.touched)">
+            <p class="text-center text-danger">Must contain numbers only</p>
+        </div>
+        <input formControlName="pname"  type="text" class="form-control mt-3 p-2 " placeholder="Product Name" name="pname" id="pname">
+        <div *ngIf="(this.addProduct.get('pname')?.errors)&&(this.addProduct.get('pname')?.touched)">
+            <p class="text-center text-danger">no special characters allowed</p>
+        </div>
+        <input formControlName="pCat" type="text" class="form-control mt-3 p-2 " placeholder="Category Id" name="pCategory" id="pCategory">
+        <div *ngIf="(this.addProduct.get('pCat')?.errors)&&(this.addProduct.get('pCat')?.touched)">
+            <p class="text-center text-danger">Must contain numbers only</p>
+        </div>
+        <input formControlName="price" type="text" class="form-control mt-3 p-2 " placeholder="Price" name="pPrice" id="pPrice">
+        <div *ngIf="(this.addProduct.get('price')?.errors)&&(this.addProduct.get('price')?.touched)">
+            <p class="text-center text-danger">Must contain numbers only</p>
+        </div>
+        <input formControlName="Description" type="text" class="form-control mt-3 p-2 " placeholder="Description" name="pDescription"
+            id="pDescription">
+        <div *ngIf="(this.addProduct.get('Description')?.errors)&&(this.addProduct.get('Description')?.touched)">
+            <p class="text-center text-danger">Can't empty this place</p>
+        </div>
+        <input formControlName="available" type="text" class="form-control mt-3 p-2 " placeholder="Is Available True/False" name="pAvailable"
+            id="pAvailable">
+        <div *ngIf="(this.addProduct.get('available')?.errors)&&(this.addProduct.get('available')?.touched)">
+            <p class="text-center text-danger">true or false</p>
+        </div>
+        <input formControlName="image" type="text" class="form-control mt-3 p-2 " placeholder="Image url" name="pImage" id="pImage">
+        <div *ngIf="(this.addProduct.get('image')?.errors)&&(this.addProduct.get('image')?.touched)">
+            <p class="text-center text-danger">Image link </p>
+        </div>
+        <input formControlName="rating" type="text" class="form-control mt-3 p-2 " placeholder="Rating" name="pRating" id="pRating">
+        <div *ngIf="(this.addProduct.get('rating')?.errors)&&(this.addProduct.get('rating')?.touched)">
+            <p class="text-center text-danger">Must contain numbers only</p>
+        </div>
+        <input formControlName="review" type="text" class="form-control mt-3 p-2 " placeholder="Review" name="pReview" id="pReview">
+        <div *ngIf="(this.addProduct.get('review')?.errors)&&(this.addProduct.get('review')?.touched)">
+            <p class="text-center text-danger">Must contain characters only</p>
+        </div>
+        <input formControlName="vendor" type="text" class="form-control mt-3 p-2 " placeholder="Vendor Name" name="pVendor" id="pVendor">
+        <div *ngIf="(this.addProduct.get('vendor')?.errors)&&(this.addProduct.get('vendor')?.touched)">
+            <p class="text-center text-danger">Must contain characters only</p>
+        </div>
+        <input formControlName="warrenty" type="text" class="form-control mt-3 p-2 " placeholder="Warrenty" name="pWar" id="pWar">
+        <div *ngIf="(this.addProduct.get('warrenty')?.errors)&&(this.addProduct.get('Warrenty')?.touched)">
+            <p class="text-center text-danger">Must contain numbers and characters only</p>
+        </div>
+        <button type="submit" class="btn btn-secondary p-2 mt-3">Add</button>
+
+    </form>
+
+</div>

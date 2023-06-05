@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "realme C55",
+      "categoryId": 10,
+      "description": " Carry a sophisticated smartphone with you that allows you to multitask effortlessly",
+      "price": "₹10999",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/t4S8Ftjy/realme.webp",
+      "rating": 4.3,
+      "review": 34,
+      "vendorNames": "realme Smartphones",
+      "warrenty": "1 Year Manufacturer Warranty"
+    },
+    {
+      "id": 3,
+      "productName": "realme GT Master Edition",
+      "categoryId": 10,
+      "description": "Triple Rear Camera Setup: 64MP Primary",
+      "price": "₹29,999",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/KzdGKrmg/gtMaster.webp",
+      "rating": 4.3,
+      "review": 34,
+      "vendorNames": "realme Smartphones",
+      "warrenty": "1 Year Manufacturer Warranty"
+    },
+    {
+      "id": 4,
+      "productName": "SAMSUNG Galaxy S22 Plus 5G",
+      "categoryId": 20,
+      "description": " Experience a brilliant user interface and capture mesmerising images with the innovative Samsung Galaxy S22 Plus 5G",
+      "price": "₹54,000",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/SNNh8KM6/s22plus.webp",
+      "rating": 4.3,
+      "review": 54,
+      "vendorNames": "samsung smartphones",
+      "warrenty": "1 Year Manufacturer Warranty"
+    },
+    {
+      "id": 5,
+      "productName": "SAMSUNG Galaxy A54 5G",
+      "categoryId": 20,
+      "description": "The Samsung Galaxy A54 5G smartphone has a stunning design",
+      "price": "₹35,990",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/RZgqf8hF/a54.webp",
+      "rating": 4.5,
+      "review": 55,
+      "vendorNames": "samsung smartphones",
+      "warrenty": "1 Year Manufacturer Warranty"
+    },
+    {
+      "id": 6,
+      "productName": "SAMSUNG Galaxy S23 Ultra 5G",
+      "categoryId": 20,
+      "description": "Get a smartphone for yourself that can detect your moods and react appropriately",
+      "price": "₹1,24,999",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/qqFjzQKZ/s23ultra.webp",
+      "rating": 4.8,
+      "review": 34,
+      "vendorNames": "samsung smartphones",
+      "warrenty": "1 Year Manufacturer Warranty"
+    },
+    {
+      "id": 8,
+      "productName": "APPLE iPhone 13",
+      "categoryId": 30,
+      "description": "Powerful. Beautiful. Durable. 5G connectivity",
+      "price": "₹50000",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/gJJV88G9/iphine14.webp",
+      "rating": 4.3,
+      "review": 54,
+      "vendorNames": "apple smartphones",
+      "warrenty": "1 Year Manufacturer Warranty"
+    },
+    {
+      "id": 9,
+      "productName": "APPLE iPhone 13 Pro Max",
+      "categoryId": 30,
+      "description": "Powerful. Beautiful. Durable. 5G connectivity",
+      "price": "₹1,34,999",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/QMkBCt72/13pro.webp",
+      "rating": 4.3,
+      "review": 34,
+      "vendorNames": "apple smartphones",
+      "warrenty": "1 Year Manufacturer Warranty"
+    },
+    {
+      "id": 10,
+      "productName": "APPLE iPhone 14 Pro",
+      "categoryId": 30,
+      "description": "Powerful. Beautiful. Durable. 5G connectivity",
+      "price": "₹1,59,900",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/vBsBddS0/14pro.webp",
+      "rating": 4.3,
+      "review": 54,
+      "vendorNames": "apple smartphones",
+      "warrenty": "1 Year Manufacturer Warranty"
+    }
+  ]
+}

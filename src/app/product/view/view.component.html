@@ -1,0 +1,39 @@
+        <!-- Product section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div  class="row gx-4 gx-lg-5 align-items-center">
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{productData.productImage}}" alt="..." /></div>
+                    <div class="col-md-6">
+                        <h1 class="display-5 fw-bolder">{{productData.productName}}</h1>
+                        
+
+                        <div class="fs-5 mb-5" style="font-weight: bold;">
+                            <span class="">{{productData.price}}</span>
+                        </div>
+                        <p class="lead " style="text-decoration: underline; font-weight: bold;"> Description </p>
+                        <p class="lead">{{productData.description}}</p>
+                        <p class="lead">Warrenty :{{productData.warrenty}}</p>
+                        <p class="lead">Rating   : <i class="fa-solid fa-star-half-stroke"></i>{{productData.rating}}</p>
+                        <p class="lead">Reviews  : {{productData.review}}</p>
+                        <p class="lead"><span style="font-weight: bold;">Seller Name : </span>{{productData.vendorNames}}</p>
+                        
+
+                      
+                        <div class="d-flex mt-4">
+                            <!-- <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" /> -->
+                            
+                            <a href="product/edit/{{id}}" class="text-dark" style="text-decoration: none;">
+                                <button class="btn btn-outline-success " type="button">Edit</button>
+
+                            </a>
+                           
+                           
+                                <a href="product/delete/{{id}}" class="text-dark" style="text-decoration: none;"> 
+                                    <button class="btn btn-outline-danger ms-3" type="button">Delete</button>
+                                </a>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
